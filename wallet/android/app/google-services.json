@@ -1,0 +1,46 @@
+{
+  "project_info": {
+    "project_number": "906534176952",
+    "project_id": "crypto-king-9621f",
+    "storage_bucket": "crypto-king-9621f.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:906534176952:android:ece25b28a3c38d2daf8c4d",
+        "android_client_info": {
+          "package_name": "com.example.wallet"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "906534176952-3n26ddbb5rbbhh3tdouf8objcj7h9u6j.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyD022RbyTmlIf2yPQXGios-sR8Dod_JT28"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "906534176952-3n26ddbb5rbbhh3tdouf8objcj7h9u6j.apps.googleusercontent.com",
+              "client_type": 3
+            },
+            {
+              "client_id": "906534176952-0dkpinpdhqdtb9o5uephucdfcf8jk42m.apps.googleusercontent.com",
+              "client_type": 2,
+              "ios_info": {
+                "bundle_id": "com.example.wallet"
+              }
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
