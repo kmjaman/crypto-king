@@ -3,6 +3,8 @@ import 'package:firebase_auth/firebase_auth.dart';
 import 'package:cloud_firestore/cloud_firestore.dart';
 import 'package:flutter/material.dart';
 
+import 'add_view.dart';
+
 class HomeView extends StatefulWidget {
   const HomeView({ Key? key }) : super(key: key);
 
@@ -49,7 +51,18 @@ class _HomeViewState extends State<HomeView> {
           
           ),
         ),
+        floatingActionButton: FloatingActionButton(
+          onPressed: () {
+            Navigator.push(
+              context,
+              MaterialPageRoute(
+                builder: (context) => AddView(),
+              ),
+            );
+          },
+          child: Icon(Icons.add, color: Colors.white,),
+          backgroundColor: Colors.blue,
+        ),
       );
-    
   }
 }
